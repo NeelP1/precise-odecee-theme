@@ -5,6 +5,7 @@
 body {
   background: #eee;
   font-family: Lato, sans-serif;
+  /*font-family: Helvetica;*/
   padding-bottom: 40px;
   font-size: 18px;
   font-weight: 300;
@@ -149,3 +150,22 @@ footer {
   margin-left: -15px;
   margin-bottom: 20px;
 }
+
+/* new selectors */
+
+.sidebar h4, h3 {
+  font-family: Futura, Arial;
+}
+
+.well h4 small {
+  color: rgb(153,153,153);
+}
+
+.well .period {
+  color: rgb(125, 172, 3);
+}
+
+.well h4 {
+  color: rgb(125, 172, 3);
+}
+
