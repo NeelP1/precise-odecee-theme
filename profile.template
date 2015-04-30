@@ -33,6 +33,24 @@
             </ul>
           </div>
 
+          <!-- new technologies list --> 
+          <div class="skills">
+            <h3>Technologies</h3>
+            <ul class="list-unstyled">
+              {{#each profile.technologies}}
+                <li><strong>{{this.type}}</strong>
+                  <ul class="list-unstyled">
+                    {{#each this.items}}
+                      <li><small>{{this.name}}</small></li>
+                    {{/each}}  
+                  </ul>
+                </li>
+                <br>
+              {{/each}}
+            </ul>
+          </div>
+          <!-- end list -->
+
           <footer class="sidebar-footer">
             <section class="links">
               <ul class="list-inline">
@@ -94,6 +112,21 @@
                 </div>
               </div>
             {{/each}}
+
+            <!-- new Accreditation list -->
+            <h3>Accreditations</h3>
+
+            {{#each profile.accreditations}}
+              <div class="row">
+                <div class="col-md-3 period">
+                  {{this.year}}
+                </div>
+                <div class="col-md-9">
+                  <p>{{this.title}}</p>
+                </div>
+              </div>
+            {{/each}}  
+            <!-- end list -->  
           </div>
         </div>
       </div>

@@ -80,5 +80,34 @@
       "username": "hello",
       "url": "hello@example.com"
     }
+  ],
+  "technologies": [
+    {
+      "type": "Framework",
+      "items": [
+        {"name":"jQuery"},
+        {"name":"Ember.js"},
+        {"name":"Zend"}
+      ]
+    },
+    {
+      "type": "OS",
+      "items": [
+        {"name":"Ubuntu"},
+        {"name":"Arch"},
+        {"name":"Solaris 10"}
+      ]
+    }
+
+  ],
+  "accreditations":[
+    {
+      "title": "Sun Solaris 10 Certified Systems administrator",
+      "year": "2012"
+    },
+    {
+      "title": "Oracle Java Standard Edition 6 Programmer Certified",
+      "year": "2010"
+    }
   ]
 }
