@@ -79,6 +79,11 @@
       "type": "Email",
       "username": "hello",
       "url": "hello@example.com"
+    },
+    {
+      "type": "linkedin",
+      "username": "example",
+      "url": "au.linkedin.com/in/example"
     }
   ],
   "technologies": [
@@ -97,6 +102,15 @@
         {"name":"Arch"},
         {"name":"Solaris 10"}
       ]
+    },
+    {
+      "type": "Databases",
+      "items": [
+        {"name":"MySQL"},
+        {"name":"Access"},
+        {"name":"Oracle 11g"},
+        {"name":"NoSQL"}
+      ]
     }
 
   ],
@@ -108,6 +122,20 @@
     {
       "title": "Oracle Java Standard Edition 6 Programmer Certified",
       "year": "2010"
+    }
+  ],
+  "achievements": [
+    {
+      "year": "2008",
+      "description": "Developed and managed leading agile team at large financial services client"
+    },
+    {
+      "year": "2007",
+      "description": "Obtained original contracts from clients who are now long term partners"
+    },
+    {
+      "year": "2005",
+      "description": "Developed app which detects diabetes using the smart phone flash light and sensors"
     }
   ]
 }

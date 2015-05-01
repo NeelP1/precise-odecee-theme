@@ -126,7 +126,22 @@
                 </div>
               </div>
             {{/each}}  
-            <!-- end list -->  
+            <!-- end list -->
+
+            <!-- new achievements list -->
+            <h3>Achievements</h3>
+
+            {{#each profile.achievements}}
+            <div class="row">
+              <div class="col-md-3 period">
+                  {{this.year}}
+              </div>
+              <div class="col-md-9">
+                <p>{{this.description}}</p>
+              </div>
+            </div>
+            {{/each}}
+            <!-- end list -->
           </div>
         </div>
       </div>

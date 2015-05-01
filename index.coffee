@@ -7,9 +7,10 @@ Handlebars = require 'handlebars'
 Handlebars.registerHelper 'md', marked
 
 Handlebars.registerHelper 'logo', (text) ->
-  return 'fa-github-square'   if text == 'Github'
-  return 'fa-twitter-square'  if text == 'Twitter'
-  return 'fa-envelope-square' if text == 'Email'
+  return 'fa-github-square'   if text == 'Github' || 'github'
+  return 'fa-twitter-square'  if text == 'Twitter' || 'twitter'
+  return 'fa-envelope-square' if text == 'Email' || 'email'
+  return 'fa-linkedin-square' if text == 'Linkedin' || 'linkedin'
 
 Handlebars.registerHelper 'truncate', (str, len) ->
   if str && str.length > len
