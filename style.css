@@ -169,3 +169,29 @@ footer {
   color: rgb(125, 172, 3);
 }
 
+/*
+.list-green {
+  padding: 1em;
+  
+}
+
+.list-dot-green {
+  text-indent: 0.5em;
+}
+*/
+
+
+.list-green {
+  list-style-type: none;
+  position: relative;
+  margin-left: 1em;
+  padding-left: 1em;
+}
+
+.list-dot-green:before {
+  content: "\2022";
+  position: absolute;
+  left: -1em;
+  color: rgb(125, 172, 3);
+  margin-right: 5px;
+}

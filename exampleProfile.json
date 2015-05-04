@@ -34,7 +34,20 @@
       "place": "Qantas",
       "period": "Oct 2014 - Current",
       "description": "Omnis et voluptatum odio quasi. *Aut id nostrum corrupti eius*. Vel esse ea. Hic placeat eum quos accusamus. Ea nemo consectetur animi laboriosam totam.",
-      "role": "Senior UX Designer"
+      "role": "Senior UX Designer",
+      "responsibilities": [
+        {
+          "description": "Doming meliore vel cu. Id pro graece viderer eleifend, iudico efficiendi ut vel. Qui eu odio exerci graecis, habeo accumsan te ius, quidam iracundia quo ei. Et vis amet inimicus, iusto errem persius ut mel."
+        },
+        {
+          "description": "Eam efficiantur comprehensam cu, iusto singulis et vim. Te saepe omittam adolescens quo, perfecto sapientem ius at."
+        }
+      ],
+      "achievements": [
+        {
+          "description": "Te tota aliquam signiferumque eum, paulo sensibus ut eam. Vim ut malis percipit efficiendi, has choro munere nonumes et."
+        }
+      ]
     },
     {
       "place": "Woolworths",
@@ -81,7 +94,7 @@
       "url": "hello@example.com"
     },
     {
-      "type": "linkedin",
+      "type": "Linkedin",
       "username": "example",
       "url": "au.linkedin.com/in/example"
     }
@@ -126,15 +139,12 @@
   ],
   "achievements": [
     {
-      "year": "2008",
-      "description": "Developed and managed leading agile team at large financial services client"
+      "description": "Magna facilis eu eum. No nam zril docendi, numquam imperdiet cotidieque cu sit. Summo nostrum antiopam pri id, et his nostrud qualisque. Sed ad affert nominavi, sit ex iriure moderatius ullamcorper, veri movet solet vim in."
     },
     {
-      "year": "2007",
       "description": "Obtained original contracts from clients who are now long term partners"
     },
     {
-      "year": "2005",
       "description": "Developed app which detects diabetes using the smart phone flash light and sensors"
     }
   ]

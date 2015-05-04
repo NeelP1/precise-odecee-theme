@@ -92,6 +92,24 @@
                   </h4>
 
                   <p>{{{md this.description}}}</p>
+
+                  {{#if this.responsibilities}}
+                  <h5>Key Responsibilities</h5>
+                  <ul>
+                    {{#each this.responsibilities}}
+                      <li>{{this.description}}</li>
+                    {{/each}}
+                  </ul>
+                  {{/if}}
+
+                  {{#if this.achievements}}
+                  <h5>Key Achievements</h5>
+                  <ul>
+                    {{#each this.achievements}}
+                      <li>{{this.description}}</li>
+                    {{/each}}
+                  </ul>
+                  {{/if}}
                 </div>
               </div>
             {{/each}}
@@ -130,17 +148,20 @@
 
             <!-- new achievements list -->
             <h3>Achievements</h3>
-
+            <ul class="list-green">
             {{#each profile.achievements}}
-            <div class="row">
-              <div class="col-md-3 period">
-                  {{this.year}}
+              <div class="row">
+                <!--
+                <div class="col-md-3 period">
+                    {{this.year}}
+                </div>
+                -->
+                <div class="col-md-12">
+                  <li class="list-dot-green">{{this.description}}</li>
+                </div>
               </div>
-              <div class="col-md-9">
-                <p>{{this.description}}</p>
-              </div>
-            </div>
             {{/each}}
+            </ul>
             <!-- end list -->
           </div>
         </div>

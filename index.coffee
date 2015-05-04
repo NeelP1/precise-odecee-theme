@@ -7,10 +7,10 @@ Handlebars = require 'handlebars'
 Handlebars.registerHelper 'md', marked
 
 Handlebars.registerHelper 'logo', (text) ->
-  return 'fa-github-square'   if text == 'Github' || 'github'
-  return 'fa-twitter-square'  if text == 'Twitter' || 'twitter'
-  return 'fa-envelope-square' if text == 'Email' || 'email'
-  return 'fa-linkedin-square' if text == 'Linkedin' || 'linkedin'
+  return 'fa-github-square'   if text.toLowerCase() == 'github'
+  return 'fa-twitter-square'  if text.toLowerCase() == 'twitter'
+  return 'fa-envelope-square' if text.toLowerCase() == 'email'
+  return 'fa-linkedin-square' if text.toLowerCase() == 'linkedin'
 
 Handlebars.registerHelper 'truncate', (str, len) ->
   if str && str.length > len
