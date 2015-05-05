@@ -169,18 +169,6 @@ footer {
   color: rgb(125, 172, 3);
 }
 
-/*
-.list-green {
-  padding: 1em;
-  
-}
-
-.list-dot-green {
-  text-indent: 0.5em;
-}
-*/
-
-
 .list-green {
   list-style-type: none;
   position: relative;

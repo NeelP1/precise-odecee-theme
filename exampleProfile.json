@@ -84,11 +84,6 @@
       "url": "http://github.com/example"
     },
     {
-      "type": "Twitter",
-      "username": "example",
-      "url": "http://twitter.com/example"
-    },
-    {
       "type": "Email",
       "username": "hello",
       "url": "hello@example.com"
@@ -97,6 +92,11 @@
       "type": "Linkedin",
       "username": "example",
       "url": "au.linkedin.com/in/example"
+    },
+    {
+      "type": "Bitbucket",
+      "username": "example",
+      "url": "bitbucket.org/example"
     }
   ],
   "technologies": [

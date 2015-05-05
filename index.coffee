@@ -11,6 +11,7 @@ Handlebars.registerHelper 'logo', (text) ->
   return 'fa-twitter-square'  if text.toLowerCase() == 'twitter'
   return 'fa-envelope-square' if text.toLowerCase() == 'email'
   return 'fa-linkedin-square' if text.toLowerCase() == 'linkedin'
+  return 'fa-bitbucket-square' if text.toLowerCase() == 'bitbucket'
 
 Handlebars.registerHelper 'truncate', (str, len) ->
   if str && str.length > len
