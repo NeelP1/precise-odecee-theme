@@ -147,20 +147,6 @@
             {{/if}}  
             <!-- end list -->
 
-            <!-- new achievements list -->
-            {{#if profile.achievements}}
-              <h3>Achievements</h3>
-              <ul class="list-green">
-                {{#each profile.achievements}}
-                  <div class="row">
-                    <div class="col-md-12">
-                      <li class="list-dot-green">{{{md this.description}}}</li>
-                    </div>
-                  </div>
-                {{/each}}
-              </ul>
-            {{/if}}
-            <!-- end list -->
           </div>
         </div>
       </div>
