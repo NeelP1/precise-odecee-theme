@@ -36,17 +36,11 @@
       "description": "Omnis et voluptatum odio quasi. *Aut id nostrum corrupti eius*. Vel esse ea. Hic placeat eum quos accusamus. Ea nemo consectetur animi laboriosam totam.",
       "role": "Senior UX Designer",
       "responsibilities": [
-        {
-          "description": "* Doming meliore vel cu. Id pro graece viderer eleifend, iudico efficiendi ut vel. Qui eu odio exerci graecis, habeo accumsan te ius, quidam iracundia quo ei. Et vis amet inimicus, iusto errem persius ut mel."
-        },
-        {
-          "description": "* Eam efficiantur comprehensam cu, iusto singulis et vim. Te saepe omittam adolescens quo, perfecto sapientem ius at."
-        }
+        "* Doming meliore vel cu. Id pro graece viderer eleifend, iudico efficiendi ut vel. Qui eu odio exerci graecis, habeo accumsan te ius, quidam iracundia quo ei. Et vis amet inimicus, iusto errem persius ut mel.",
+        "* Eam efficiantur comprehensam cu, iusto singulis et vim. Te saepe omittam adolescens quo, perfecto sapientem ius at."
       ],
       "achievements": [
-        {
-          "description": "* Te tota aliquam signiferumque eum, paulo sensibus ut eam. Vim ut malis percipit efficiendi, has choro munere nonumes et."
-        }
+        "* Te tota aliquam signiferumque eum, paulo sensibus ut eam. Vim ut malis percipit efficiendi, has choro munere nonumes et."
       ]
     },
     {
@@ -101,28 +95,28 @@
   ],
   "technologies": [
     {
-      "type": "Framework",
-      "items": [
-        {"name":"jQuery"},
-        {"name":"Ember.js"},
-        {"name":"Zend"}
+      "category": "Framework",
+      "subcategories": [
+        "jQuery",
+        "Ember.js",
+        "Zend"
       ]
     },
     {
-      "type": "OS",
-      "items": [
-        {"name":"Ubuntu"},
-        {"name":"Arch"},
-        {"name":"Solaris 10"}
+      "category": "OS",
+      "subcategories": [
+        "Ubuntu",
+        "Arch",
+        "Solaris 10"
       ]
     },
     {
-      "type": "Databases",
-      "items": [
-        {"name":"MySQL"},
-        {"name":"Access"},
-        {"name":"Oracle 11g"},
-        {"name":"NoSQL"}
+      "category": "Databases",
+      "subcategories": [
+        "MySQL",
+        "Access",
+        "Oracle 11g",
+        "NoSQL"
       ]
     }
 

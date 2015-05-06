@@ -38,10 +38,10 @@
             <h3>Technologies</h3>
             <ul class="list-unstyled">
               {{#each profile.technologies}}
-                <li><strong>{{this.type}}</strong>
+                <li><strong>{{this.category}}</strong>
                   <ul class="list-unstyled">
-                    {{#each this.items}}
-                      <li><small>{{this.name}}</small></li>
+                    {{#each this.subcategories}}
+                      <li><small>{{this}}</small></li>
                     {{/each}}  
                   </ul>
                 </li>
@@ -97,7 +97,7 @@
                   <h5>Key Responsibilities</h5>
 
                     {{#each this.responsibilities}}
-                      {{{md this.description}}}
+                      {{{md this}}}
                     {{/each}}
                   
                   {{/if}}
@@ -106,7 +106,7 @@
                   <h5>Key Achievements</h5>
                   
                     {{#each this.achievements}}
-                      {{{md this.description}}}
+                      {{{md this}}}
                     {{/each}}
                   
                   {{/if}}
