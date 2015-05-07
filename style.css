@@ -157,6 +157,7 @@ footer {
   font-family: Futura, Arial;
 }
 
+/* TODO: change rgb to Hexidecimal codes */
 .well h4 small {
   color: rgb(153,153,153);
 }
@@ -167,6 +168,18 @@ footer {
 
 .well h4 {
   color: rgb(125, 172, 3);
+}
+
+.photo img {
+  border-radius: 7em;
+}
+
+.portfolio .logo img {
+  border-bottom-right-radius: 0.5em; 
+}
+
+.portfolio .photo img {
+  border-radius: 10em;
 }
 
 .list-green {

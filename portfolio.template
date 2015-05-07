@@ -15,6 +15,13 @@
   <body>
     <div class="container-fluid portfolio">
       <header class="row">
+        <!-- company title -->
+        <div class="text-left">
+          <a class="logo" target="_blank" href="http://precise.io">
+            <img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">
+          </a>
+        </div>
+        <!-- end -->
         <div class="well">
           <div class="col-md-6 col-xs-12">
             <h3>{{portfolio.name}}</h3>

@@ -87,8 +87,8 @@
                 </div>
                 <div class="col-md-9">
                   <h4>
-                    {{this.place}}
-                    <small>{{this.role}}</small>
+                    {{this.role}}
+                    <small>{{this.place}}</small>
                   </h4>
 
                   <p>{{{md this.description}}}</p>
