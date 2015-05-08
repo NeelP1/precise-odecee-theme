@@ -1,10 +1,10 @@
 {
-  "name": "precise-theme-starter",
-  "version": "0.0.8",
-  "description": "Example of how to theme a Precise Profile and Portfolio. Use it as a starter for your own company branding",
+  "name": "precise-odecee-theme",
+  "version": "0.0.1",
+  "description": "Odecee theme for the Precise Profile and Portfolio.",
   "repository": {
     "type": "git",
-    "url": "git@github.com:srbartlett/precise-theme-starter.git"
+    "url": "git@github.com:NeelP1/precise-odecee-theme.git"
   },
   "dependencies": {
     "coffee-script": "^1.7.1",

@@ -16,7 +16,7 @@
     <div class="container-fluid portfolio">
       <header class="row">
         <!-- company title -->
-        <div class="text-left">
+        <div class="text-center">
           <a class="logo" target="_blank" href="http://precise.io">
             <img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">
           </a>

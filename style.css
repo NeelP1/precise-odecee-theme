@@ -171,15 +171,17 @@ footer {
 }
 
 .photo img {
-  border-radius: 7em;
+  /*border-radius: 7em;*/
+  border-radius: 150px;
 }
 
 .portfolio .logo img {
   border-bottom-right-radius: 0.5em; 
+  border-bottom-left-radius: 0.5em; 
 }
 
 .portfolio .photo img {
-  border-radius: 10em;
+  border-radius: 150px;
 }
 
 .list-green {
