@@ -4,7 +4,7 @@
 
 body {
   background: #eee;
-  font-family: Lato, sans-serif;
+  font-family: museo-sans, sans-serif, Futura;
   /*font-family: Helvetica;*/
   padding-bottom: 40px;
   font-size: 18px;
@@ -41,7 +41,7 @@ body {
 }
 
 header, .sidebar {
-  background-color: #7dac03;
+  background-color: #84D06F;
   color: white;
 }
 
@@ -153,33 +153,31 @@ footer {
 
 /* new selectors */
 
+/*
 .sidebar h4, h3 {
-  font-family: Futura, Arial;
+  font-family: museo-sans, sans-serif, Futura, Arial;
 }
+*/
 
-/* TODO: change rgb to Hexidecimal codes */
 .well h4 small {
   color: rgb(153,153,153);
 }
 
 .well .period {
-  color: rgb(125, 172, 3);
+  color: #84D06F;
 }
 
 .well h4 {
-  color: rgb(125, 172, 3);
+  color: #84D06F;
 }
 
 .photo img {
-  border-radius: 7em;
-}
-
-.portfolio .logo img {
-  border-bottom-right-radius: 0.5em; 
+  /*border-radius: 7em;*/
+  border-radius: 150px;
 }
 
 .portfolio .photo img {
-  border-radius: 10em;
+  border-radius: 150px;
 }
 
 .list-green {
@@ -196,3 +194,9 @@ footer {
   color: rgb(125, 172, 3);
   margin-right: 5px;
 }
+
+.logo img{
+  width: 250px;
+  height: auto;
+}
+

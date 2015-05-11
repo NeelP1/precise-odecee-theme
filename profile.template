@@ -32,8 +32,9 @@
               {{/each}}
             </ul>
           </div>
-
-          <!-- new technologies list --> 
+          <br>
+          <!-- new technologies list -->
+          {{#if profile.technologies}} 
           <div class="skills">
             <h3>Technologies</h3>
             <ul class="list-unstyled">
@@ -49,6 +50,7 @@
               {{/each}}
             </ul>
           </div>
+          {{/if}}
           <!-- end list -->
 
           <footer class="sidebar-footer">
@@ -74,7 +76,8 @@
           <div class="well">
             <div class="text-right">
               <a class="logo" target="_blank" href="http://precise.io">
-                <img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">
+                <!--<img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">-->
+                <img src="odlogolight.png">
               </a>
             </div>
             <p class="bio">{{profile.about.bio}}</p>

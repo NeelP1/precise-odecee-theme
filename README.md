@@ -1,3 +1,9 @@
+# Odecee Theme
+
+This theme is a modified version of the standard precise porfolio and profile theme. The original repository
+can be found at [https://github.com/srbartlett/precise-theme-starter](https://github.com/srbartlett/precise-theme-starter). To further edit the odecee theme simply
+follow the instructions below. 
+
 # Precise Theme Starter
 
 This is an example of how to create a theme for [Precise](http://precise.io) Portfolios and Profiles.
