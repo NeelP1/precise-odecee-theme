@@ -15,7 +15,6 @@
   <body>
     <div class="container-fluid portfolio">
       <header class="row">
-        
         <div class="well">
           <div class="col-md-6 col-xs-12">
             <h3>{{portfolio.name}}</h3>
