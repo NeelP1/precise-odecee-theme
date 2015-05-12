@@ -74,10 +74,11 @@
 
         <div class="col-md-9 col-xs-12 main-content">
           <div class="well">
-            <div class="text-right">
+            <div class="text-right col-md-12 col-xs-12" id="go-right">
               <a class="logo" target="_blank" href="http://precise.io">
                 <!--<img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">-->
-                <img src="odlogolight.png">
+                <!--<img src="odlogolight.png">-->
+                <div id="logoLight" class="pull-right"></div>
               </a>
             </div>
             <p class="bio">{{profile.about.bio}}</p>

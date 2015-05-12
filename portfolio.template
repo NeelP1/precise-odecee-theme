@@ -35,7 +35,8 @@
           <div class="col-md-3 col-xs-6 text-right">
             <a class="logo" target="_blank" href="http://precise.io">
             <!--<img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">-->
-              <img src="odlogodark.png">
+              <div id="logoDark"></div>
+              <!-- TODO: include backup logos -->
             </a>
           </div>          
           <!-- end title -->
