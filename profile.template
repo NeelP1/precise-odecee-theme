@@ -98,11 +98,11 @@
 
                   {{#if this.responsibilities}}
                   <h5>Key Responsibilities</h5>
-
+                    <ul>
                     {{#each this.responsibilities}}
-                      {{{md this}}}
+                      <li>{{this}}</li>
                     {{/each}}
-                  
+                    </ul>
                   {{/if}}
 
                   {{#if this.achievements}}
