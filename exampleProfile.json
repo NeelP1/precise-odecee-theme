@@ -40,7 +40,8 @@
         "* Eam efficiantur comprehensam cu, iusto singulis et vim. Te saepe omittam adolescens quo, perfecto sapientem ius at."
       ],
       "achievements": [
-        "* Te tota aliquam signiferumque eum, paulo sensibus ut eam. Vim ut malis percipit efficiendi, has choro munere nonumes et."
+        "Te tota aliquam signiferumque eum, paulo sensibus ut eam. Vim ut malis percipit efficiendi, has choro munere nonumes et.",
+        "Another achievement."
       ]
     },
     {
@@ -119,7 +120,6 @@
         "NoSQL"
       ]
     }
-
   ],
   "accreditations":[
     {
@@ -129,6 +129,14 @@
     {
       "title": "Oracle Java Standard Edition 6 Programmer Certified",
       "year": "2010"
+    },
+    {
+      "title": "Puppet - Advanced Training",
+      "year": "2013"
+    },
+    {
+      "title": "Atlassian Dragon Slayer",
+      "year": "2014"
     }
   ],
   "achievements": [

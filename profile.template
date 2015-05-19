@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row">
+      <div class="row" id="profile">
         <div class="col-md-3 col-xs-12 sidebar">
           <div class="photo">
             <img width="230" height="230" src="{{profile.about.photo_url}}">
@@ -77,7 +77,6 @@
             <div class="text-right col-md-12 col-xs-12" id="go-right">
               <a class="logo" target="_blank" href="http://precise.io">
                 <!--<img src="http://resume.odecee.com/wp-content/themes/resume/images/old-logo.png">-->
-                <!--<img src="odlogolight.png">-->
                 <div id="logoLight" class="pull-right"></div>
               </a>
             </div>
@@ -108,11 +107,12 @@
 
                   {{#if this.achievements}}
                   <h5>Key Achievements</h5>
-                  
+                    <ul>
                     {{#each this.achievements}}
-                      {{{md this}}}
+                      <!--{{{md this}}}-->
+                      <li>{{this}}</li>
                     {{/each}}
-                  
+                    </ul>
                   {{/if}}
                 </div>
               </div>

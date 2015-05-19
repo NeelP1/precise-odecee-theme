@@ -2,12 +2,15 @@
   https://fonts.googleapis.com/css?family=Lato:300,400
 );
 
+@import url(
+  http://fonts.googleapis.com/css?family=Quicksand:300,400,700
+);
+
 body {
   background: #eee;
-  font-family: museo-sans, sans-serif, Futura;
-  /*font-family: Helvetica;*/
+  font-family: 'Quicksand', 'Lato', sans-serif;
   padding-bottom: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -41,6 +44,13 @@ body {
 }
 
 header, .sidebar {
+  /* color from Style Guide  converted to rgba */
+  /*background-color: rgba(71, 217, 39, 0.6);*/
+
+  /* color from Style Guide */
+  /*background-color: #47D927;*/
+
+  /* color from Odecee Website */
   background-color: #84D06F;
   color: white;
 }
@@ -151,16 +161,10 @@ footer {
   margin-bottom: 20px;
 }
 
-/* new selectors */
-
-/*
-.sidebar h4, h3 {
-  font-family: museo-sans, sans-serif, Futura, Arial;
-}
-*/
+/* new selectors for Odecee theme */
 
 .well h4 small {
-  color: rgb(153,153,153);
+  color: #999999;
 }
 
 .well .period {
@@ -169,11 +173,11 @@ footer {
 
 .well h4 {
   color: #84D06F;
+  font-family: 'brandon_reg', 'brandon_light', sans-serif;
 }
 
 .photo img {
   border-radius: 150px;
-
 }
 
 .portfolio .photo img {
@@ -215,4 +219,63 @@ footer {
 
 #go-right{
   padding-right: 0;
+  margin-bottom: 30px;
+}
+
+/*full height sidebar on widescreen*/
+@media (min-width: 1200px) {
+  #profile {
+    display: table;
+  }
+
+  .sidebar {
+    float: none;
+    display: table-cell;
+  }
+
+  .main-content {
+    float: none;
+    display: table-cell;
+  }
+}
+
+@font-face {
+  font-family: brandon_thin;
+  src: url(Brandon_thin.otf);
+}
+
+@font-face {
+  font-family: brandon_reg;
+  src: url(Brandon_reg.otf);
+}
+
+@font-face {
+  font-family: brandon_light;
+  src: url(Brandon_light.otf);
+}
+
+@font-face {
+  font-family: brandon_med;
+  src: url(Brandon_med.otf);
+}
+
+.title, .period {
+  font-size: 18px;
+}
+
+.portfolio .passion {
+  font-size: 16px;
+}
+
+h3, h4, .period, .title {
+  font-family: 'brandon_light', 'brandon_thin', sans-serif;
+}
+
+.sidebar h4, .portfolio h4 {
+  font-family: 'brandon_reg', 'Brandon_light', sans-serif;
+}
+
+h5 {
+  font-family: 'brandon_light', 'lato', sans-serif;
+  font-size: 16px;
 }
