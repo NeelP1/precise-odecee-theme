@@ -20,7 +20,7 @@
           <div class="photo">
             <img width="230" height="230" src="{{profile.about.photo_url}}">
           </div>
-          <h4>{{profile.about.name}}</h4>
+          <h3 id="name">{{profile.about.name}}</h3>
           <span class="title">{{profile.about.title}}</span>
           <p class="passion">{{profile.about.passion}}</p>
 

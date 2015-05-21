@@ -1,5 +1,5 @@
 @import url(
-  https://fonts.googleapis.com/css?family=Lato:300,400
+  https://fonts.googleapis.com/css?family=Lato:100,300,400
 );
 
 @import url(
@@ -41,6 +41,7 @@ body {
 .sidebar {
   text-align: center;
   padding-bottom: 150px;
+  right: 1px;
 }
 
 header, .sidebar {
@@ -231,6 +232,7 @@ footer {
   .sidebar {
     float: none;
     display: table-cell;
+    
   }
 
   .main-content {
@@ -238,28 +240,6 @@ footer {
     display: table-cell;
   }
 }
-
-/*
-@font-face {
-  font-family: brandon_thin;
-  src: url(Brandon_thin.otf);
-}
-
-@font-face {
-  font-family: brandon_reg;
-  src: url(Brandon_reg.otf);
-}
-
-@font-face {
-  font-family: brandon_light;
-  src: url(Brandon_light.otf);
-}
-
-@font-face {
-  font-family: brandon_med;
-  src: url(Brandon_med.otf);
-}
-*/
 
 @font-face {
   font-family: 'brandon_thin';
@@ -289,6 +269,11 @@ footer {
   font-size: 16px;
 }
 
+.portfolio #name {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
 h3, h4, .period, .title {
   font-family: 'brandon_light', 'Lato', sans-serif;
 }
@@ -300,4 +285,17 @@ h3, h4, .period, .title {
 h5 {
   font-family: 'brandon_light', 'Lato', sans-serif;
   font-size: 16px;
+}
+
+#name{
+  font-family: 'brandon_reg', 'Lato', sans-serif;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 19px;
+}
+
+.sidebar h3 {
+  font-weight: bold;
 }
